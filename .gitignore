@@ -1,0 +1,46 @@
+
+# Environment - jangan commit konfigurasi rahasia
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Laravel cache dan hasil generate
+/bootstrap/cache/*.php
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# File hasil build frontend
+/public/build/
+/public/hot
+/public/storage
+
+# IDE dan editor
+/.idea/
+/.vscode/
+/*.sublime-*
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log dan file sementara
+*.log
+npm-debug.log*
+yarn-debug.log*
+*.tmp
+
+# Testing dan coverage
+/.phpunit.cache/
+/coverage/
+
+# File database lokal
+/database/*.sqlite
+/database/*.sqlite-journal
